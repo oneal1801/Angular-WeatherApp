@@ -92,6 +92,9 @@ body {
 
 .more-info-label {
     color: var(--white);
+    justify-content: center;
+    align-items: center;
+    display: flex;
 
 }
 
@@ -138,4 +141,26 @@ body {
     justify-content: center;
     align-items: center;
     color: var(--white);
+}
+
+.search {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.search input {
+    background-color: var(--shadow-dark);
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 1em;
+    color: var(--grey-1);
+    font-size: 0.8em;
+    text-align: center;
+    width: 100%;
+
+}
+
+.search input::placeholder{
+    color: var(--yellow-1);
 }
